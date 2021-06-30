@@ -42,7 +42,7 @@ namespace WindowsFormsApp123
             this.label1.BackColor = System.Drawing.Color.Red;
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 70F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label1.Location = new System.Drawing.Point(176, 162);
+            this.label1.Location = new System.Drawing.Point(9, 151);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(453, 109);
             this.label1.TabIndex = 0;
@@ -71,9 +71,9 @@ namespace WindowsFormsApp123
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.FormBorderStyle = FormBorderStyle.None;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.panel1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "Form1";
             this.Text = "Form1";
             this.panel1.ResumeLayout(false);

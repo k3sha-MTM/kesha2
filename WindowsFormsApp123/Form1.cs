@@ -33,7 +33,7 @@ namespace WindowsFormsApp123
 
         private void Timer_Tick(object sender, EventArgs e)
         {
-            label1.Text = $"{DateTime.Now.Hour.ToString()} : {DateTime.Now.Minute.ToString()}";
+            label1.Text = $"{DateTime.Now.Hour.ToString()} : {DateTime.Now.Minute.ToString()} : {DateTime.Now.Second.ToString()} : {DateTime.Now.Millisecond.ToString()}";
         }
 
         private void button1_Click(object sender, EventArgs e)
