@@ -21,6 +21,7 @@ namespace WindowsFormsApp123
             timer.Interval = 5;
             timer.Tick += Timer_Tick;
             timer.Start();
+            this.panel1.BackColor = Color.Aqua;
             //var time1 = new DateTime(2021,5,1,8,20,32);
             
             //DateTime dateTime = new DateTime();
