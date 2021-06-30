@@ -14,6 +14,7 @@ namespace WindowsFormsApp123
 {
     public partial class Form1 : Form
     {
+        
         private Timer timer = new Timer();
         public Form1()
         {
@@ -21,6 +22,8 @@ namespace WindowsFormsApp123
             timer.Interval = 5;
             timer.Tick += Timer_Tick;
             timer.Start();
+            
+            
             this.panel1.BackColor = Color.Aqua;
             //var time1 = new DateTime(2021,5,1,8,20,32);
             
@@ -31,6 +34,13 @@ namespace WindowsFormsApp123
         private void Timer_Tick(object sender, EventArgs e)
         {
             label1.Text = $"{DateTime.Now.Hour.ToString()} : {DateTime.Now.Minute.ToString()}";
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            Settings settings = new Settings();
+            settings.Size = new Size(350, 300);
+            settings.Show();
         }
     }
 }
